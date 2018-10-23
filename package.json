@@ -4,13 +4,18 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "jest",
+    "watch": "jest --watchAll",
+    "start": "node app.js",
     "test": "jest",
     "clean": "rm -rf node_modules"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
