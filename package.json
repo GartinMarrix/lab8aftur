@@ -1,0 +1,16 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "jest",
+    "test": "jest",
+    "clean": "rm -rf node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
